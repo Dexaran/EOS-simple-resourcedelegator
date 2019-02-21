@@ -1,0 +1,58 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu Feb 21 12:54:50 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "ask",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "cancel",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "send",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "ask",
+            "type": "ask",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "cancel",
+            "type": "cancel",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "send",
+            "type": "send",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
